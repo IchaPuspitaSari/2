@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #4e3886;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 120px;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 32px;
+}
+
+.menu a:hover {
+  color: #bda8f1;
+}
+
+.landing-page {
+  height: 100vh;
+  background-color: #6b53aa;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 120px;
+}
+
+.text-hero h3 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.text-hero h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.text-hero p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.text-hero a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #6b53aa;
+  background-color: #fff5f5;
+  border-radius: 12px;
+  padding: 7px 30px;
+}
+
+.text-hero a:hover {
+  color: white;
+  background-color: #402979;
+}
+
+.img-hero img {
+  width: 350px;
+  height: 350px;
+}
+
+.portofolio {
+  min-height: 100vh;
+}
+
+.text-porto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.text-porto h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2e2d2f;
+}
+
+.text-porto p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4f4a4a;
+}
+
+.isi-porto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 160px;
+}
+
+.isi-porto img {
+  margin-bottom: 60px;
+  width: 350px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+.isi-porto img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px#2e2d2f;
+}
+
+.kontak {
+  min-height: 100vh;
+  background-color: #6b53aa;
+}
+
+.text-kontak {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  color: white;
+}
+
+.text-kontak h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text-kontak p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.isi-kontak form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 56px;
+}
+
+.isi-kontak label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #e7f6f2;
+}
+
+input {
+  width: 538.2px;
+  height: 53px;
+  border-radius: 12px;
+  background: #e7f6f2;
+  margin-top: 12px;
+  margin-left: 38px;
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+
+textarea {
+  margin-left: 38px;
+  padding-left: 20px;
+  width: 1125px;
+  height: 235px;
+  border-radius: 12px;
+  background: #e7f6f2;
+}
+
+.nama {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nama label {
+  margin: 0px 38px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.email label {
+  margin: 0px 38px;
+}
+
+.email input {
+  display: flex;
+  align-items: flex-end;
+}
+
+.pesan {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 44px;
+}
+
+.pesan label {
+  margin: 0px 38px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #4e3886;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
